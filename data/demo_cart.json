@@ -1,0 +1,102 @@
+{
+  "cartId": "cart_demo_quick_commerce_4",
+  "sourcePlatform": "Blinkit / Zepto Live Demo Preset",
+  "currency": "INR",
+  "items": [
+    {
+      "cartItemId": "ci_01",
+      "productId": "prod-02",
+      "name": "Maggi Masala Noodles",
+      "brand": "Nestlé Maggi",
+      "quantity": 2,
+      "unitPriceInr": 14,
+      "servingLabel": "1 single pack (70 g)",
+      "nutritionPerServing": {
+        "energyKcal": 313,
+        "proteinG": 6.8,
+        "carbsG": 44.0,
+        "addedSugarG": 1.9,
+        "fiberG": 1.7,
+        "fatG": 12.2,
+        "satFatG": 5.6,
+        "sodiumMg": 790,
+        "ironMg": 2.6
+      },
+      "allergens": [
+        "gluten",
+        "soy"
+      ],
+      "ingredientsSnippet": "Refined Wheat Flour (Maida), Palm Oil, Maltodextrin, Flavour Enhancers (INS 627, INS 631)"
+    },
+    {
+      "cartItemId": "ci_02",
+      "productId": "prod-01",
+      "name": "Chocolate Peanut Bar",
+      "brand": "NutriBite Demo Confectionery",
+      "quantity": 2,
+      "unitPriceInr": 40,
+      "servingLabel": "1 bar (45 g)",
+      "nutritionPerServing": {
+        "energyKcal": 234,
+        "proteinG": 4.2,
+        "carbsG": 24.5,
+        "addedSugarG": 15.0,
+        "fiberG": 1.6,
+        "fatG": 13.5,
+        "satFatG": 5.2,
+        "sodiumMg": 65,
+        "ironMg": 1.1
+      },
+      "allergens": [
+        "peanuts",
+        "lactose",
+        "soy"
+      ],
+      "ingredientsSnippet": "Roasted Peanuts, Sugar, Liquid Glucose, Palmolein Oil, Soy Lecithin, TBHQ (INS 319)"
+    },
+    {
+      "cartItemId": "ci_03",
+      "productId": "ci_salted_chips",
+      "name": "Classic Salted Potato Chips",
+      "brand": "Desi Crunch",
+      "quantity": 1,
+      "unitPriceInr": 20,
+      "servingLabel": "1 small pack (30 g)",
+      "nutritionPerServing": {
+        "energyKcal": 160,
+        "proteinG": 1.9,
+        "carbsG": 16.2,
+        "addedSugarG": 0.4,
+        "fiberG": 1.2,
+        "fatG": 9.8,
+        "satFatG": 4.3,
+        "sodiumMg": 295,
+        "ironMg": 0.5
+      },
+      "allergens": [],
+      "ingredientsSnippet": "Potato, Palmolein Oil, Iodised Salt"
+    },
+    {
+      "cartItemId": "ci_04",
+      "productId": "ci_roasted_makhana",
+      "name": "Roasted Makhana (Fox Nuts)",
+      "brand": "Mithila Harvest",
+      "quantity": 2,
+      "unitPriceInr": 90,
+      "servingLabel": "1 cup / bowl (25 g)",
+      "nutritionPerServing": {
+        "energyKcal": 88,
+        "proteinG": 2.4,
+        "carbsG": 18.2,
+        "addedSugarG": 0.0,
+        "fiberG": 2.1,
+        "fatG": 0.5,
+        "satFatG": 0.1,
+        "sodiumMg": 45,
+        "ironMg": 1.4
+      },
+      "allergens": [],
+      "ingredientsSnippet": "Popped Lotus Seeds (Makhana), Cold-Pressed Olive/Ghee Mist (trace), Rock Salt"
+    }
+  ]
+}

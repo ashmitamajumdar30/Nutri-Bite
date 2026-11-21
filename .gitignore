@@ -1,0 +1,12 @@
+﻿.env
+backend/.env
+cv-engine/.env
+frontend/.env
+node_modules/
+**/node_modules/
+frontend/dist/
+__pycache__/
+*.pyc
+venv/
+.venv/
+*.zip

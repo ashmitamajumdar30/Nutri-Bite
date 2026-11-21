@@ -1,0 +1,758 @@
+{
+  "_meta": {
+    "name": "NutriBite FSSAI & ICMR-NIN Deterministic Health Rulebook",
+    "version": "2.0.0",
+    "basis": "All per-serving limits apply to one serving as defined on package/plate. 'sugar' means added sugar (g), 'sodium' is mg, 'satFat' is g. Values exceeding 'amber' trigger AMBER; values exceeding 'red' trigger RED. Allergen matches trigger immediate RED.",
+    "disclaimer": "Educational and label-decoding guidance based on FSSAI and ICMR-NIN references. Not a substitute for clinical diagnosis or medical advice."
+  },
+  "allergens": {
+    "peanuts": [
+      "peanut",
+      "peanuts",
+      "groundnut",
+      "groundnuts",
+      "ground nut",
+      "groundnut oil",
+      "peanut oil",
+      "peanut butter",
+      "moongphali",
+      "mungfali",
+      "mungphali",
+      "moongfali",
+      "singdana",
+      "shengdana",
+      "arachis",
+      "arachis oil",
+      "monkey nut",
+      "hydrolysed groundnut protein",
+      "chikki"
+    ],
+    "tree nuts": [
+      "almond",
+      "almonds",
+      "badam",
+      "cashew",
+      "cashews",
+      "kaju",
+      "walnut",
+      "walnuts",
+      "akhrot",
+      "pistachio",
+      "pistachios",
+      "pista",
+      "hazelnut",
+      "hazelnuts",
+      "pecan",
+      "macadamia",
+      "brazil nut",
+      "pine nut",
+      "chilgoza",
+      "tree nut",
+      "tree nuts",
+      "mixed nuts",
+      "marzipan",
+      "praline",
+      "nut paste",
+      "almond milk"
+    ],
+    "gluten": [
+      "wheat",
+      "atta",
+      "maida",
+      "suji",
+      "sooji",
+      "rava",
+      "semolina",
+      "durum",
+      "whole wheat",
+      "refined wheat flour",
+      "wheat flour",
+      "wheat gluten",
+      "gluten",
+      "barley",
+      "jau",
+      "rye",
+      "malt",
+      "malt extract",
+      "dalia",
+      "daliya",
+      "broken wheat",
+      "bulgur",
+      "couscous",
+      "seitan",
+      "vermicelli",
+      "semiya",
+      "sevai",
+      "wheat bran",
+      "soy sauce",
+      "cereals containing gluten"
+    ],
+    "lactose": [
+      "milk",
+      "milk solids",
+      "milk powder",
+      "skimmed milk powder",
+      "whole milk powder",
+      "milk fat",
+      "whey",
+      "whey protein",
+      "whey powder",
+      "casein",
+      "caseinate",
+      "lactose",
+      "paneer",
+      "ghee",
+      "khoya",
+      "khova",
+      "mawa",
+      "curd",
+      "dahi",
+      "yogurt",
+      "yoghurt",
+      "butter",
+      "makhan",
+      "cream",
+      "malai",
+      "cheese",
+      "buttermilk",
+      "chaas",
+      "lassi",
+      "dairy",
+      "condensed milk",
+      "rabri",
+      "milk chocolate",
+      "dairy whitener"
+    ],
+    "soy": [
+      "soy",
+      "soya",
+      "soybean",
+      "soya bean",
+      "soybeans",
+      "soy lecithin",
+      "soya lecithin",
+      "ins 322",
+      "ins322",
+      "soy protein",
+      "soya protein",
+      "soy flour",
+      "soya flour",
+      "soya chunks",
+      "soya nuggets",
+      "nutrela",
+      "tofu",
+      "edamame",
+      "soy sauce",
+      "miso",
+      "tempeh",
+      "textured vegetable protein",
+      "hydrolysed vegetable protein",
+      "soybean oil",
+      "soya oil"
+    ],
+    "shellfish": [
+      "shrimp",
+      "shrimps",
+      "prawn",
+      "prawns",
+      "jhinga",
+      "crab",
+      "kekda",
+      "lobster",
+      "crayfish",
+      "squid",
+      "oyster",
+      "clam",
+      "mussel",
+      "scallop",
+      "cuttlefish",
+      "krill",
+      "shellfish",
+      "crustacean",
+      "crustaceans",
+      "mollusc",
+      "mollusk",
+      "fish sauce"
+    ],
+    "eggs": [
+      "egg",
+      "eggs",
+      "anda",
+      "egg white",
+      "egg yolk",
+      "egg powder",
+      "albumen",
+      "albumin",
+      "ovalbumin",
+      "ovomucoid",
+      "lysozyme",
+      "mayonnaise",
+      "mayo",
+      "meringue",
+      "ins 1105",
+      "dried egg",
+      "egg lecithin"
+    ]
+  },
+  "conditions": {
+    "diabetes": {
+      "label": "Diabetes",
+      "limits": [
+        {
+          "metric": "sugar",
+          "greenMax": 5,
+          "amber": 5,
+          "amberMax": 10,
+          "red": 10,
+          "unit": "g",
+          "label": "Added Sugar",
+          "reason": "Added sugar under 5g per serving is Green, 5-10g is Amber, and over 10g is Red due to rapid post-meal blood glucose spikes."
+        },
+        {
+          "metric": "satFat",
+          "greenMax": 4,
+          "amber": 4,
+          "amberMax": 8,
+          "red": 8,
+          "unit": "g",
+          "label": "Saturated Fat",
+          "reason": "Excess saturated fat worsens insulin resistance and compounds cardiometabolic risk in diabetes."
+        },
+        {
+          "metric": "sodium",
+          "greenMax": 400,
+          "amber": 400,
+          "amberMax": 800,
+          "red": 800,
+          "unit": "mg",
+          "label": "Sodium",
+          "reason": "High sodium strains blood pressure and renal health, which require extra protection in diabetes."
+        }
+      ],
+      "watchIngredients": [
+        "maltodextrin",
+        "invert sugar",
+        "invert syrup",
+        "liquid glucose",
+        "glucose syrup",
+        "high fructose corn syrup",
+        "dextrose",
+        "corn syrup",
+        "fructose",
+        "jaggery",
+        "gur",
+        "honey",
+        "maida"
+      ]
+    },
+    "hypertension": {
+      "label": "Hypertension (BP)",
+      "limits": [
+        {
+          "metric": "sodium",
+          "greenMax": 250,
+          "amber": 250,
+          "amberMax": 500,
+          "red": 500,
+          "unit": "mg",
+          "label": "Sodium",
+          "reason": "Sodium under 250mg per serving is Green, 250-500mg is Amber, and above 500mg is Red for blood pressure control."
+        },
+        {
+          "metric": "satFat",
+          "greenMax": 4,
+          "amber": 4,
+          "amberMax": 8,
+          "red": 8,
+          "unit": "g",
+          "label": "Saturated Fat",
+          "reason": "High saturated fat contributes to arterial stiffness and makes blood pressure management harder."
+        },
+        {
+          "metric": "sugar",
+          "greenMax": 10,
+          "amber": 10,
+          "amberMax": 20,
+          "red": 20,
+          "unit": "g",
+          "label": "Added Sugar",
+          "reason": "High added sugar intake contributes to weight gain and elevated blood pressure over time."
+        }
+      ],
+      "watchIngredients": [
+        "msg",
+        "monosodium glutamate",
+        "ins 621",
+        "ins 627",
+        "ins 631",
+        "disodium inosinate",
+        "disodium guanylate",
+        "sodium bicarbonate",
+        "baking soda",
+        "sodium nitrite",
+        "ins 250",
+        "sodium benzoate",
+        "ins 211",
+        "black salt",
+        "kala namak",
+        "pickle",
+        "achaar"
+      ]
+    },
+    "high_cholesterol": {
+      "label": "High Cholesterol / Heart Health",
+      "limits": [
+        {
+          "metric": "satFat",
+          "greenMax": 3,
+          "amber": 3,
+          "amberMax": 6,
+          "red": 6,
+          "unit": "g",
+          "label": "Saturated Fat",
+          "reason": "Saturated fat under 3g per serving is Green, 3-6g is Amber, and above 6g is Red for LDL cholesterol and heart protection."
+        },
+        {
+          "metric": "sugar",
+          "greenMax": 10,
+          "amber": 10,
+          "amberMax": 15,
+          "red": 15,
+          "unit": "g",
+          "label": "Added Sugar",
+          "reason": "Excess added sugar elevates triglycerides and lowers HDL cholesterol."
+        },
+        {
+          "metric": "sodium",
+          "greenMax": 250,
+          "amber": 250,
+          "amberMax": 500,
+          "red": 500,
+          "unit": "mg",
+          "label": "Sodium",
+          "reason": "Keeping sodium under 250mg per serving supports healthy blood pressure and cardiovascular load."
+        }
+      ],
+      "watchIngredients": [
+        "palmolein",
+        "palmolein oil",
+        "palm oil",
+        "palm olein",
+        "palm kernel oil",
+        "trans fat",
+        "vanaspati",
+        "dalda",
+        "hydrogenated",
+        "partially hydrogenated",
+        "shortening",
+        "bakery fat"
+      ]
+    },
+    "heart": {
+      "label": "Heart Health",
+      "limits": [
+        {
+          "metric": "satFat",
+          "greenMax": 3,
+          "amber": 3,
+          "amberMax": 6,
+          "red": 6,
+          "unit": "g",
+          "label": "Saturated Fat",
+          "reason": "Saturated fat under 3g is Green, 3-6g is Amber, and over 6g is Red alongside strict trans-fat and palmolein checks."
+        },
+        {
+          "metric": "sodium",
+          "greenMax": 250,
+          "amber": 250,
+          "amberMax": 500,
+          "red": 500,
+          "unit": "mg",
+          "label": "Sodium",
+          "reason": "Sodium under 250mg per serving is Green, 250-500mg is Amber, and above 500mg is Red for cardiac protection."
+        },
+        {
+          "metric": "sugar",
+          "greenMax": 8,
+          "amber": 8,
+          "amberMax": 15,
+          "red": 15,
+          "unit": "g",
+          "label": "Added Sugar",
+          "reason": "High added sugar promotes metabolic inflammation and adverse lipid profiles."
+        }
+      ],
+      "watchIngredients": [
+        "vanaspati",
+        "dalda",
+        "hydrogenated",
+        "partially hydrogenated",
+        "trans fat",
+        "palm oil",
+        "palmolein",
+        "palmolein oil",
+        "shortening",
+        "msg",
+        "ins 621",
+        "ins 627",
+        "ins 631",
+        "tbhq",
+        "ins 319"
+      ]
+    },
+    "pcos_thyroid": {
+      "label": "PCOS / Thyroid",
+      "limits": [
+        {
+          "metric": "sugar",
+          "greenMax": 5,
+          "amber": 5,
+          "amberMax": 10,
+          "red": 10,
+          "unit": "g",
+          "label": "Added Sugar",
+          "reason": "Added sugar under 5g is Green, 5-10g is Amber, and above 10g is Red to help manage insulin sensitivity in PCOS."
+        },
+        {
+          "metric": "satFat",
+          "greenMax": 4,
+          "amber": 4,
+          "amberMax": 8,
+          "red": 8,
+          "unit": "g",
+          "label": "Saturated Fat",
+          "reason": "Lower saturated fat reduces inflammatory load and supports metabolic balance in PCOS and thyroid care."
+        }
+      ],
+      "watchIngredients": [
+        "maltodextrin",
+        "invert sugar",
+        "invert syrup",
+        "liquid glucose",
+        "glucose syrup",
+        "dextrose",
+        "maida",
+        "refined wheat flour",
+        "soy",
+        "soya",
+        "soybean",
+        "soy lecithin",
+        "soya chunks",
+        "soy protein",
+        "soy flour"
+      ]
+    }
+  },
+  "general": {
+    "label": "General Healthy Adult",
+    "limits": [
+      {
+        "metric": "sugar",
+        "greenMax": 5,
+        "amber": 5,
+        "amberMax": 10,
+        "red": 10,
+        "unit": "g",
+        "label": "Added Sugar",
+        "reason": "Keep added sugar under 5g per serving for Green, 5-10g Amber, and >10g Red toward daily ICMR/WHO targets."
+      },
+      {
+        "metric": "sodium",
+        "greenMax": 250,
+        "amber": 250,
+        "amberMax": 500,
+        "red": 500,
+        "unit": "mg",
+        "label": "Sodium",
+        "reason": "Keep sodium under 250mg per serving for Green, 250-500mg Amber, and >500mg Red."
+      },
+      {
+        "metric": "satFat",
+        "greenMax": 3,
+        "amber": 3,
+        "amberMax": 6,
+        "red": 6,
+        "unit": "g",
+        "label": "Saturated Fat",
+        "reason": "Keep saturated fat under 3g per serving for Green, 3-6g Amber, and >6g Red."
+      }
+    ],
+    "watchIngredients": []
+  },
+  "biometricFormulas": {
+    "description": "Deterministic formulas to calculate daily Protein (g), Dietary Fiber (g), Iron (mg), and Max Added Sugar (g) from age_years, gender, height_cm, and weight_kg.",
+    "inputs": [
+      "age_years",
+      "gender",
+      "height_cm",
+      "weight_kg"
+    ],
+    "targets": {
+      "protein_g": {
+        "unit": "g/day",
+        "formula": "round(weight_kg * factor, 1)",
+        "factors": {
+          "adult_baseline": 0.85,
+          "older_adult_60_plus": 1.0,
+          "pediatric_under_18": 1.05
+        },
+        "floor_g": 45,
+        "ceiling_g": 140
+      },
+      "fiber_g": {
+        "unit": "g/day",
+        "formula": "round(min(38, max(19, estimated_kcal / 1000 * 14)), 1)",
+        "estimated_kcal_reference": {
+          "male_mifflin_st_jeor_light_activity": "1.375 * ((10 * weight_kg) + (6.25 * height_cm) - (5 * age_years) + 5)",
+          "female_mifflin_st_jeor_light_activity": "1.375 * ((10 * weight_kg) + (6.25 * height_cm) - (5 * age_years) - 161)",
+          "other_default_light_activity": "1.375 * ((10 * weight_kg) + (6.25 * height_cm) - (5 * age_years) - 78)"
+        }
+      },
+      "iron_mg": {
+        "unit": "mg/day",
+        "rulesByGenderAndAge": [
+          {
+            "when": "age_years < 14",
+            "target_mg": 10
+          },
+          {
+            "when": "gender == 'female' AND age_years >= 14 AND age_years <= 50",
+            "target_mg": 18
+          },
+          {
+            "when": "gender == 'female' AND age_years > 50",
+            "target_mg": 12
+          },
+          {
+            "when": "gender == 'male' AND age_years >= 14",
+            "target_mg": 12
+          },
+          {
+            "when": "gender == 'other'",
+            "target_mg": 15
+          }
+        ]
+      },
+      "added_sugar_max_g": {
+        "unit": "g/day",
+        "formula": "round(min(25, max(12, (estimated_kcal * 0.05) / 4)), 1)",
+        "note": "Aligned with conservative ~5% energy ceiling capped at 25g/day for metabolic & glycemic protection."
+      }
+    }
+  },
+  "bioBufferRules": {
+    "description": "Actionable 'Eat-It-Anyway' damage-control protocols when a user consumes an Amber or Red food item.",
+    "buffers": {
+      "diabetes_spike_buffer": {
+        "id": "bio_diabetes_spike",
+        "title": "Diabetes Spike Buffer",
+        "appliesToConditions": [
+          "diabetes",
+          "pcos_thyroid"
+        ],
+        "triggerVerdicts": [
+          "amber",
+          "red"
+        ],
+        "steps": [
+          "Pre-load 1 tbsp soaked chia or flaxseeds or 4-5 cucumber/salad slices 10-15 minutes before eating to slow gastric emptying.",
+          "Take a 12-minute brisk walk starting 15 minutes after the meal to boost insulin-independent glucose uptake.",
+          "Avoid pairing with sugary chai, juice, or extra refined carbs in the same sitting."
+        ],
+        "expectedEffect": "Blunts post-prandial glucose peak and flattens the insulin curve."
+      },
+      "hypertension_sodium_buffer": {
+        "id": "bio_hypertension_sodium",
+        "title": "Hypertension Sodium Buffer",
+        "appliesToConditions": [
+          "hypertension",
+          "heart"
+        ],
+        "triggerVerdicts": [
+          "amber",
+          "red"
+        ],
+        "steps": [
+          "Drink 1 glass of plain tender coconut water (nariyal paani) or have a potassium-rich small banana/guava to help balance the sodium-to-potassium ratio.",
+          "Drink plain water steadily across the day and skip added table salt, pickles (achaar), or papad for the next two meals.",
+          "Monitor blood pressure later if you are sensitive to sodium fluctuations."
+        ],
+        "expectedEffect": "Supports potassium-mediated sodium excretion and helps buffer volume/BP pressure."
+      },
+      "cholesterol_oil_buffer": {
+        "id": "bio_cholesterol_oil",
+        "title": "Cholesterol & Oil Buffer",
+        "appliesToConditions": [
+          "high_cholesterol",
+          "heart",
+          "diabetes",
+          "pcos_thyroid"
+        ],
+        "triggerVerdicts": [
+          "amber",
+          "red"
+        ],
+        "steps": [
+          "Start with a glass of warm water with lemon and make your next meal rich in soluble fiber (rolled oats, moong dal, okra/bhindi, or 1 tsp isabgol/psyllium husk).",
+          "Keep remaining meals of the day low in saturated fat, palmolein/vanaspati, and deep-fried snacks.",
+          "Add a serving of leafy greens or sprouts to increase dietary fiber binding in the gut."
+        ],
+        "expectedEffect": "Increases soluble fiber binding in the digestive tract and offsets daily saturated/fried fat load."
+      }
+    }
+  },
+  "knownAdditives": [
+    {
+      "name": "TBHQ / INS 319",
+      "match": [
+        "tbhq",
+        "ins 319",
+        "ins319",
+        "e319",
+        "tertiary butylhydroquinone",
+        "tertiary butyl hydroquinone"
+      ],
+      "truth": "Synthetic petroleum-derived antioxidant that stops oils going rancid and extends shelf life; allowed by FSSAI in tiny amounts, but best to avoid frequent intake.",
+      "risk": "red"
+    },
+    {
+      "name": "INS 627 / INS 631",
+      "match": [
+        "ins 627",
+        "ins627",
+        "ins 631",
+        "ins631",
+        "disodium guanylate",
+        "disodium inosinate",
+        "flavour enhancer 627",
+        "flavour enhancer 631"
+      ],
+      "truth": "Flavour enhancers used with MSG in noodle and chips masalas; they make food hard to stop eating, add hidden sodium, and are best limited if you have gout or high BP.",
+      "risk": "amber"
+    },
+    {
+      "name": "Sodium Benzoate / INS 211",
+      "match": [
+        "sodium benzoate",
+        "ins 211",
+        "ins211",
+        "e211"
+      ],
+      "truth": "Preservative that stops mould in drinks and sauces; permitted at low levels, but it can form benzene with vitamin C and is worth limiting in children.",
+      "risk": "amber"
+    },
+    {
+      "name": "Liquid Glucose",
+      "match": [
+        "liquid glucose",
+        "glucose syrup",
+        "glucose-fructose syrup",
+        "corn syrup"
+      ],
+      "truth": "Hidden refined sugar syrup that triggers rapid blood glucose spikes.",
+      "risk": "amber"
+    },
+    {
+      "name": "Maltodextrin",
+      "match": [
+        "maltodextrin",
+        "malto dextrin"
+      ],
+      "truth": "Starch-based filler that is digested even faster than table sugar, spiking blood glucose, and it often hides in masala and snack seasonings.",
+      "risk": "amber"
+    },
+    {
+      "name": "Palmolein Oil",
+      "match": [
+        "palmolein",
+        "palmolein oil",
+        "refined palmolein",
+        "palm oil",
+        "palm olein"
+      ],
+      "truth": "Cheap refined palm oil that is high in saturated fat; common in namkeen, chips and instant noodles, and worse when re-used for frying.",
+      "risk": "amber"
+    },
+    {
+      "name": "Soy Lecithin / INS 322",
+      "match": [
+        "soy lecithin",
+        "soya lecithin",
+        "ins 322",
+        "ins322",
+        "e322",
+        "lecithin"
+      ],
+      "truth": "Common emulsifier made from soybeans that keeps chocolate and biscuits smooth; harmless for most people but it is a soy allergen.",
+      "risk": "green"
+    },
+    {
+      "name": "Citric Acid / INS 330",
+      "match": [
+        "citric acid",
+        "ins 330",
+        "ins330",
+        "e330",
+        "acidity regulator (330)"
+      ],
+      "truth": "Natural acid from citrus or fermentation used for tang and preservation; safe, though frequent acidic drinks can wear tooth enamel.",
+      "risk": "green"
+    },
+    {
+      "name": "MSG / INS 621",
+      "match": [
+        "msg",
+        "monosodium glutamate",
+        "ins 621",
+        "ins621",
+        "e621"
+      ],
+      "truth": "Flavour enhancer that adds a savoury 'umami' punch and hidden sodium; safe for most people in small amounts but best limited with high BP.",
+      "risk": "amber"
+    },
+    {
+      "name": "Caramel Colour / INS 150d",
+      "match": [
+        "ins 150d",
+        "ins150d",
+        "caramel colour",
+        "caramel color",
+        "e150d",
+        "caramel iv"
+      ],
+      "truth": "Brown colouring made by heating sugar with chemicals; it adds no nutrition and can contain trace by-products, so it is worth limiting in daily colas.",
+      "risk": "amber"
+    },
+    {
+      "name": "Synthetic Food Colours (INS 102 / 110 / 122 / 129)",
+      "match": [
+        "tartrazine",
+        "sunset yellow",
+        "carmoisine",
+        "allura red",
+        "ins 102",
+        "ins 110",
+        "ins 122",
+        "ins 129",
+        "ins 133",
+        "ins 124",
+        "ponceau"
+      ],
+      "truth": "Artificial dyes used to make sweets and drinks look bright; some are linked to hyperactivity in children, so choose naturally coloured foods where possible.",
+      "risk": "amber"
+    },
+    {
+      "name": "Vanaspati / Hydrogenated Fat",
+      "match": [
+        "vanaspati",
+        "dalda",
+        "hydrogenated",
+        "partially hydrogenated",
+        "bakery shortening",
+        "interesterified"
+      ],
+      "truth": "Solid fat made by hydrogenating oil that can contain trans fat, which raises bad cholesterol and heart risk; FSSAI caps trans fat at 2% of the oil.",
+      "risk": "red"
+    }
+  ]
+}

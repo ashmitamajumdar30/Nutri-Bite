@@ -1,0 +1,93 @@
+{
+  "_meta": {
+    "purpose": "Plate Snap benchmarking: typical per-plate macros for common Indian home and street meals.",
+    "basis": "Estimates from IFCT 2017 / NIN food composition values for typical home-style portions; real plates vary by about ±15% with oil, portion and recipe.",
+    "units": { "calories": "kcal", "macros": "g", "sodiumMg": "mg", "ironMg": "mg" }
+  },
+  "meals": [
+    {
+      "id": "plate-01", "name": "Masala Dosa with Sambar & Coconut Chutney", "emoji": "🥞", "type": "south indian breakfast",
+      "portion": "1 dosa (120 g), potato masala 100 g, sambar 150 g, chutney 40 g",
+      "calories": 420, "proteinG": 10, "carbsG": 62, "fatG": 15, "satFatG": 3.8, "fiberG": 5, "sugarG": 4, "sodiumMg": 780, "ironMg": 2.8,
+      "ingredients": ["rice", "urad dal", "potato", "onion", "mustard seeds", "curry leaves", "toor dal", "mixed vegetables", "tamarind", "coconut", "oil"],
+      "allergens": []
+    },
+    {
+      "id": "plate-02", "name": "Idli Sambar", "emoji": "🍚", "type": "south indian breakfast",
+      "portion": "3 idlis (150 g), sambar 200 g",
+      "calories": 250, "proteinG": 9, "carbsG": 46, "fatG": 3.5, "satFatG": 0.8, "fiberG": 5, "sugarG": 3, "sodiumMg": 520, "ironMg": 2.6,
+      "ingredients": ["rice", "urad dal", "toor dal", "mixed vegetables", "tamarind", "sambar powder", "mustard seeds", "oil"],
+      "allergens": []
+    },
+    {
+      "id": "plate-03", "name": "Chole Bhature", "emoji": "🍛", "type": "street / dhaba",
+      "portion": "2 bhature (140 g), chole 200 g, onion and pickle",
+      "calories": 780, "proteinG": 20, "carbsG": 92, "fatG": 35, "satFatG": 8.0, "fiberG": 12, "sugarG": 6, "sodiumMg": 1100, "ironMg": 5.5,
+      "ingredients": ["maida", "curd", "chickpeas", "onion", "tomato", "chole masala", "tea leaves", "oil for deep frying"],
+      "allergens": ["gluten", "lactose"]
+    },
+    {
+      "id": "plate-04", "name": "Pav Bhaji", "emoji": "🍞", "type": "street food",
+      "portion": "2 buttered pav (100 g), bhaji 250 g",
+      "calories": 520, "proteinG": 12, "carbsG": 70, "fatG": 22, "satFatG": 9.0, "fiberG": 8, "sugarG": 9, "sodiumMg": 1050, "ironMg": 3.5,
+      "ingredients": ["maida", "butter", "potato", "cauliflower", "peas", "tomato", "capsicum", "pav bhaji masala", "onion"],
+      "allergens": ["gluten", "lactose"]
+    },
+    {
+      "id": "plate-05", "name": "Vada Pav", "emoji": "🍔", "type": "street food",
+      "portion": "1 vada pav (150 g) with dry garlic chutney",
+      "calories": 300, "proteinG": 7, "carbsG": 42, "fatG": 12, "satFatG": 2.5, "fiberG": 3, "sugarG": 3, "sodiumMg": 560, "ironMg": 2.0,
+      "ingredients": ["maida pav", "potato", "besan", "green chilli", "garlic", "mustard seeds", "groundnut or coconut dry chutney", "oil for deep frying"],
+      "allergens": ["gluten", "peanuts"]
+    },
+    {
+      "id": "plate-06", "name": "Dal Tadka with 2 Roti", "emoji": "🍲", "type": "home meal",
+      "portion": "dal tadka 200 g, 2 whole wheat rotis (80 g)",
+      "calories": 420, "proteinG": 17, "carbsG": 63, "fatG": 11, "satFatG": 3.0, "fiberG": 11, "sugarG": 3, "sodiumMg": 640, "ironMg": 4.8,
+      "ingredients": ["toor dal", "moong dal", "ghee", "onion", "tomato", "garlic", "cumin", "turmeric", "atta"],
+      "allergens": ["gluten", "lactose"]
+    },
+    {
+      "id": "plate-07", "name": "Rajma Chawal", "emoji": "🍛", "type": "home meal",
+      "portion": "rajma 200 g, cooked rice 180 g",
+      "calories": 520, "proteinG": 17, "carbsG": 90, "fatG": 9, "satFatG": 1.8, "fiberG": 13, "sugarG": 3, "sodiumMg": 560, "ironMg": 5.0,
+      "ingredients": ["kidney beans", "basmati rice", "onion", "tomato", "ginger", "garlic", "rajma masala", "oil"],
+      "allergens": []
+    },
+    {
+      "id": "plate-08", "name": "Paneer Butter Masala with 2 Tandoori Roti", "emoji": "🧀", "type": "restaurant / dhaba",
+      "portion": "paneer butter masala 200 g, 2 tandoori rotis (90 g)",
+      "calories": 640, "proteinG": 25, "carbsG": 52, "fatG": 36, "satFatG": 16.0, "fiberG": 6, "sugarG": 10, "sodiumMg": 980, "ironMg": 3.0,
+      "ingredients": ["paneer", "butter", "cream", "tomato puree", "cashew paste", "onion", "kasuri methi", "atta"],
+      "allergens": ["lactose", "tree nuts", "gluten"]
+    },
+    {
+      "id": "plate-09", "name": "Chicken Biryani with Raita", "emoji": "🍗", "type": "restaurant / street",
+      "portion": "biryani 300 g, raita 100 g",
+      "calories": 600, "proteinG": 28, "carbsG": 75, "fatG": 20, "satFatG": 6.0, "fiberG": 3, "sugarG": 4, "sodiumMg": 1050, "ironMg": 3.2,
+      "ingredients": ["basmati rice", "chicken", "curd", "onion", "ghee", "biryani masala", "mint", "saffron"],
+      "allergens": ["lactose"]
+    },
+    {
+      "id": "plate-10", "name": "Poha with Peanuts & Sev", "emoji": "🍳", "type": "breakfast / street",
+      "portion": "1 plate (200 g) with peanuts and sev",
+      "calories": 340, "proteinG": 8, "carbsG": 56, "fatG": 10, "satFatG": 1.8, "fiberG": 4, "sugarG": 3, "sodiumMg": 450, "ironMg": 3.0,
+      "ingredients": ["flattened rice", "peanuts", "onion", "mustard seeds", "curry leaves", "turmeric", "lemon", "besan sev", "oil"],
+      "allergens": ["peanuts"]
+    },
+    {
+      "id": "plate-11", "name": "Aloo Paratha with Curd & Pickle", "emoji": "🫓", "type": "north indian breakfast",
+      "portion": "2 parathas (200 g), curd 100 g, pickle 10 g",
+      "calories": 560, "proteinG": 14, "carbsG": 78, "fatG": 22, "satFatG": 8.0, "fiberG": 7, "sugarG": 6, "sodiumMg": 900, "ironMg": 3.2,
+      "ingredients": ["atta", "potato", "butter or ghee", "green chilli", "coriander", "amchur", "curd", "mango pickle"],
+      "allergens": ["gluten", "lactose"]
+    },
+    {
+      "id": "plate-12", "name": "Pani Puri (6 pieces)", "emoji": "🥟", "type": "street food",
+      "portion": "6 puris with potato-chana filling and spiced water",
+      "calories": 220, "proteinG": 4, "carbsG": 38, "fatG": 6, "satFatG": 1.0, "fiberG": 3, "sugarG": 4, "sodiumMg": 480, "ironMg": 1.8,
+      "ingredients": ["suji", "maida", "potato", "chickpeas", "tamarind", "mint", "black salt", "chaat masala", "oil for deep frying"],
+      "allergens": ["gluten"]
+    }
+  ]
+}

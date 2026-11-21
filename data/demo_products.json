@@ -1,0 +1,87 @@
+[
+  {
+    "id": "demo-01", "name": "Sprite 300ml Can", "brand": "Sprite (Coca-Cola India)", "itemType": "drink", "category": "soft drink", "emoji": "🥤",
+    "serving": { "size": 300, "unit": "ml", "label": "1 can (300 ml)" },
+    "nutritionPerServing": { "energyKcal": 114, "proteinG": 0, "carbsG": 28.5, "totalSugarG": 28.5, "addedSugarG": 28.5, "fiberG": 0, "fatG": 0, "satFatG": 0, "transFatG": 0, "sodiumMg": 30, "ironMg": 0 },
+    "ingredients": "Carbonated Water, Sugar, Acidity Regulators (INS 330, INS 331(iii)), Preservative (INS 211), Flavour (Natural and Nature Identical Flavouring Substances)",
+    "allergens": [], "mayContain": [], "additives": ["INS 330", "INS 331(iii)", "INS 211"], "verified": false
+  },
+  {
+    "id": "demo-02", "name": "Maggi 2-Minute Masala Noodles", "brand": "Nestlé Maggi", "itemType": "packaged", "category": "instant noodles", "emoji": "🍜",
+    "serving": { "size": 70, "unit": "g", "label": "1 pack (70 g)" },
+    "nutritionPerServing": { "energyKcal": 313, "proteinG": 6.8, "carbsG": 44.0, "totalSugarG": 1.9, "addedSugarG": 1.9, "fiberG": 1.7, "fatG": 12.2, "satFatG": 5.6, "transFatG": 0.1, "sodiumMg": 790, "ironMg": 2.6 },
+    "ingredients": "Noodles: Refined Wheat Flour (Maida), Palm Oil, Iodised Salt, Wheat Gluten, Thickener (INS 412), Acidity Regulators (INS 501(i), INS 500(i)). Tastemaker: Spices and Condiments, Iodised Salt, Sugar, Maltodextrin, Edible Vegetable Oil (Palm), Hydrolysed Vegetable Protein (Soy), Flavour Enhancers (INS 627, INS 631), Acidity Regulator (INS 330)",
+    "allergens": ["gluten", "soy"], "mayContain": [], "additives": ["INS 412", "INS 627", "INS 631", "INS 330"], "verified": false
+  },
+  {
+    "id": "demo-03", "name": "Parle-G Gold Biscuits", "brand": "Parle", "itemType": "packaged", "category": "biscuit", "emoji": "🍪",
+    "serving": { "size": 25, "unit": "g", "label": "5 biscuits (25 g)" },
+    "nutritionPerServing": { "energyKcal": 114, "proteinG": 1.7, "carbsG": 18.9, "totalSugarG": 6.0, "addedSugarG": 6.0, "fiberG": 0.5, "fatG": 3.7, "satFatG": 1.6, "transFatG": 0, "sodiumMg": 60, "ironMg": 0.6 },
+    "ingredients": "Wheat Flour (Maida), Sugar, Edible Vegetable Oil (Palm), Invert Syrup, Leavening Agents (INS 503(ii), INS 500(ii)), Iodised Salt, Milk Solids, Emulsifiers (INS 322 (Soy Lecithin), INS 481(i)), Dough Conditioner (INS 223)",
+    "allergens": ["gluten", "lactose", "soy"], "mayContain": [], "additives": ["INS 503(ii)", "INS 500(ii)", "INS 322", "INS 481(i)", "INS 223"], "verified": false
+  },
+  {
+    "id": "demo-04", "name": "Cadbury Fuse Peanut Bar", "brand": "Cadbury (Mondelez India)", "itemType": "packaged", "category": "chocolate bar", "emoji": "🍫",
+    "serving": { "size": 40, "unit": "g", "label": "1 bar (40 g)" },
+    "nutritionPerServing": { "energyKcal": 212, "proteinG": 3.8, "carbsG": 22.0, "totalSugarG": 17.0, "addedSugarG": 17.0, "fiberG": 1.2, "fatG": 12.0, "satFatG": 4.9, "transFatG": 0, "sodiumMg": 38, "ironMg": 0.8 },
+    "ingredients": "Sugar, Milk Solids, Roasted Peanuts, Cocoa Butter, Cocoa Solids, Liquid Glucose, Crisped Rice, Emulsifiers (INS 322, INS 476), Edible Vegetable Fat (Palm), Added Flavour (Nature Identical Flavouring Substances)",
+    "allergens": ["peanuts", "lactose", "soy"], "mayContain": ["tree nuts", "gluten"], "additives": ["INS 322", "INS 476"], "verified": false
+  },
+  {
+    "id": "demo-05", "name": "Lay's India's Magic Masala", "brand": "Lay's (PepsiCo India)", "itemType": "packaged", "category": "chips", "emoji": "🥔",
+    "serving": { "size": 30, "unit": "g", "label": "1 small pack (30 g)" },
+    "nutritionPerServing": { "energyKcal": 163, "proteinG": 2.0, "carbsG": 15.9, "totalSugarG": 1.2, "addedSugarG": 1.2, "fiberG": 1.3, "fatG": 10.0, "satFatG": 4.4, "transFatG": 0.1, "sodiumMg": 222, "ironMg": 0.4 },
+    "ingredients": "Potato, Edible Vegetable Oil (Palmolein Oil), Seasoning (Sugar, Spices and Condiments (Onion Powder, Chilli, Coriander, Cumin), Iodised Salt, Maltodextrin, Acidity Regulator (INS 330), Flavour Enhancers (INS 627, INS 631), Natural Flavours)",
+    "allergens": [], "mayContain": ["lactose", "soy"], "additives": ["INS 330", "INS 627", "INS 631"], "verified": false
+  },
+  {
+    "id": "demo-06", "name": "Amul Taaza Toned Milk", "brand": "Amul", "itemType": "drink", "category": "milk", "emoji": "🥛",
+    "serving": { "size": 200, "unit": "ml", "label": "1 glass (200 ml)" },
+    "nutritionPerServing": { "energyKcal": 116, "proteinG": 6.0, "carbsG": 9.4, "totalSugarG": 9.4, "addedSugarG": 0, "fiberG": 0, "fatG": 6.0, "satFatG": 3.9, "transFatG": 0, "sodiumMg": 90, "ironMg": 0.1 },
+    "ingredients": "Toned Milk (Milk Fat and Milk Solids-Not-Fat, standardised)",
+    "allergens": ["lactose"], "mayContain": [], "additives": [], "verified": false
+  },
+  {
+    "id": "demo-07", "name": "Britannia NutriChoice Digestive", "brand": "Britannia", "itemType": "packaged", "category": "biscuit", "emoji": "🍘",
+    "serving": { "size": 30, "unit": "g", "label": "2 biscuits (30 g)" },
+    "nutritionPerServing": { "energyKcal": 140, "proteinG": 2.4, "carbsG": 19.8, "totalSugarG": 5.7, "addedSugarG": 5.7, "fiberG": 2.1, "fatG": 5.6, "satFatG": 2.8, "transFatG": 0, "sodiumMg": 130, "ironMg": 0.9 },
+    "ingredients": "Whole Wheat Flour (Atta), Refined Wheat Flour (Maida), Edible Vegetable Oil (Palm), Sugar, Wheat Bran, Invert Syrup, Raising Agents (INS 500(ii), INS 503(ii)), Iodised Salt, Emulsifier (INS 322)",
+    "allergens": ["gluten", "soy"], "mayContain": ["lactose"], "additives": ["INS 500(ii)", "INS 503(ii)", "INS 322"], "verified": false
+  },
+  {
+    "id": "demo-08", "name": "Real Mixed Fruit Juice", "brand": "Real (Dabur)", "itemType": "drink", "category": "packaged juice", "emoji": "🧃",
+    "serving": { "size": 200, "unit": "ml", "label": "1 glass (200 ml)" },
+    "nutritionPerServing": { "energyKcal": 120, "proteinG": 0.4, "carbsG": 29.4, "totalSugarG": 27.6, "addedSugarG": 15.0, "fiberG": 0.2, "fatG": 0, "satFatG": 0, "transFatG": 0, "sodiumMg": 30, "ironMg": 0.2 },
+    "ingredients": "Water, Mixed Fruit Juice Concentrate (Pineapple, Apple, Guava, Mango), Sugar, Acidity Regulator (INS 330), Antioxidant (INS 300), Added Flavour (Natural and Nature Identical Flavouring Substances)",
+    "allergens": [], "mayContain": [], "additives": ["INS 330", "INS 300"], "verified": false
+  },
+  {
+    "id": "demo-09", "name": "Haldiram's Aloo Bhujia", "brand": "Haldiram's", "itemType": "packaged", "category": "namkeen", "emoji": "🍟",
+    "serving": { "size": 30, "unit": "g", "label": "1 serving (30 g)" },
+    "nutritionPerServing": { "energyKcal": 174, "proteinG": 3.5, "carbsG": 13.0, "totalSugarG": 0.6, "addedSugarG": 0.3, "fiberG": 2.3, "fatG": 12.2, "satFatG": 5.5, "transFatG": 0.1, "sodiumMg": 260, "ironMg": 1.1 },
+    "ingredients": "Potato, Edible Vegetable Oil (Palmolein), Moth Bean Flour, Gram Pulse Flour, Spices and Condiments, Iodised Salt, Acidity Regulator (INS 330)",
+    "allergens": [], "mayContain": [], "additives": ["INS 330"], "verified": false
+  },
+  {
+    "id": "demo-10", "name": "Yoga Bar Multigrain Energy Bar", "brand": "Yoga Bar", "itemType": "packaged", "category": "energy bar", "emoji": "🥜",
+    "serving": { "size": 38, "unit": "g", "label": "1 bar (38 g)" },
+    "nutritionPerServing": { "energyKcal": 160, "proteinG": 3.4, "carbsG": 25.7, "totalSugarG": 10.5, "addedSugarG": 2.5, "fiberG": 3.8, "fatG": 5.4, "satFatG": 1.0, "transFatG": 0, "sodiumMg": 24, "ironMg": 1.5 },
+    "ingredients": "Rolled Oats, Date Paste, Raisins, Almonds, Pumpkin Seeds, Sunflower Seeds, Ragi Flakes, Honey, Flax Seeds",
+    "allergens": ["gluten", "tree nuts"], "mayContain": ["peanuts", "soy", "lactose"], "additives": [], "verified": false
+  },
+
+  {
+    "id": "demo-screen-07", "name": "Chocolate Peanut Bar", "brand": "Generic demo label (Screens 07-08)", "itemType": "packaged", "category": "chocolate bar", "emoji": "🍫", "isScreenMock": true,
+    "serving": { "size": 100, "unit": "g", "label": "per 100 g" },
+    "nutritionPerServing": { "energyKcal": 520, "proteinG": 8, "carbsG": 48, "totalSugarG": 24, "addedSugarG": 24, "fiberG": 3, "fatG": 32, "satFatG": 8, "transFatG": 0, "sodiumMg": 150, "ironMg": 1.5 },
+    "ingredients": "Roasted Peanuts (28%), Sugar, Liquid Glucose, Palmolein Oil, Cocoa Solids, Soy Lecithin (INS 322), Antioxidant (TBHQ - INS 319)",
+    "allergens": ["peanuts", "soy"], "mayContain": [], "additives": ["INS 322", "INS 319"], "verified": false
+  },
+  {
+    "id": "demo-screen-09", "name": "Roasted Almond & Oats Bar", "brand": "Generic demo label (Screen 09 corrected scan)", "itemType": "packaged", "category": "energy bar", "emoji": "🍪", "isScreenMock": true,
+    "serving": { "size": 40, "unit": "g", "label": "1 bar (40 g)" },
+    "nutritionPerServing": { "energyKcal": 185, "proteinG": 9, "carbsG": 20, "totalSugarG": 8, "addedSugarG": 3, "fiberG": 5, "fatG": 8, "satFatG": 1.5, "transFatG": 0, "sodiumMg": 95, "ironMg": 1.8 },
+    "ingredients": "Rolled Oats, Almonds, Honey, Cocoa",
+    "allergens": ["gluten", "tree nuts"], "mayContain": [], "additives": [], "verified": false
+  }
+]

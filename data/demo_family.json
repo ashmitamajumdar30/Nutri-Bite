@@ -1,0 +1,68 @@
+{
+  "householdId": "hh_demo_indian_3",
+  "householdName": "Sharma Family Household",
+  "description": "Default 3-member Indian household for One-Scan Whole-Family Matrix and Intersection Swap calculations.",
+  "members": [
+    {
+      "id": "mem_you",
+      "memberName": "You",
+      "relation": "self",
+      "ageYears": 32,
+      "gender": "male",
+      "heightCm": 174,
+      "weightKg": 74,
+      "conditions": [
+        "diabetes"
+      ],
+      "allergens": [
+        "peanuts"
+      ],
+      "dailyTargets": {
+        "proteinG": 62.9,
+        "fiberG": 34.8,
+        "ironMg": 12.0,
+        "addedSugarMaxG": 25.0
+      }
+    },
+    {
+      "id": "mem_mom",
+      "memberName": "Mom",
+      "relation": "mother",
+      "ageYears": 56,
+      "gender": "female",
+      "heightCm": 158,
+      "weightKg": 64,
+      "conditions": [
+        "pcos_thyroid"
+      ],
+      "allergens": [
+        "soy"
+      ],
+      "dailyTargets": {
+        "proteinG": 54.4,
+        "fiberG": 24.4,
+        "ironMg": 12.0,
+        "addedSugarMaxG": 21.8
+      }
+    },
+    {
+      "id": "mem_dad",
+      "memberName": "Dad",
+      "relation": "father",
+      "ageYears": 61,
+      "gender": "male",
+      "heightCm": 171,
+      "weightKg": 76,
+      "conditions": [
+        "hypertension"
+      ],
+      "allergens": [],
+      "dailyTargets": {
+        "proteinG": 76.0,
+        "fiberG": 31.8,
+        "ironMg": 12.0,
+        "addedSugarMaxG": 25.0
+      }
+    }
+  ]
+}
